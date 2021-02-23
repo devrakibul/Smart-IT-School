@@ -1,0 +1,264 @@
+@media (min-width: 1200px) {
+  #banner {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #wrap .title h1 {
+    font-size: 23px;
+    padding: 5px 0; }
+
+  #course .nav-pills .nav-item {
+    height: 120px;
+    width: 115px; }
+    #course .nav-pills .nav-item .nav-link {
+      padding: 27px 0; }
+
+  #leader .leader-slider .leader-img {
+    height: 100%;
+    width: 100%; }
+  #leader .leader-slider .leader-speach h4 {
+    font-size: 18px; }
+    #leader .leader-slider .leader-speach h4 span {
+      font-size: 14px; }
+
+  #footer .contact h3 {
+    font-size: 20px; }
+  #footer .contact ul li a {
+    font-size: 13px; }
+  #footer .contact .office {
+    padding-left: 15px; }
+    #footer .contact .office span {
+      font-size: 14px; }
+  #footer .contact .phone p a {
+    font-size: 14px;
+    padding-left: 15px; }
+  #footer .contact .email p a {
+    font-size: 14px;
+    padding-left: 15px; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #wrap .title h1 {
+    font-size: 48px;
+    margin: 0; }
+
+  #welcome .welcome-head h1 {
+    padding: 0 50px 20px; }
+
+  #leader .leader-slider .leader-speach p {
+    font-size: 14px;
+    text-align: justify; }
+  #leader .arrows2 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%); }
+
+  #admission form #getintouch-part .tbl2 td {
+    font-size: 14px; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #wrap .title h1 {
+    font-size: 35px;
+    margin: 10px 0; }
+
+  .navbar .collapse .navbar-nav {
+    width: 150px; }
+    .navbar .collapse .navbar-nav .nav-item .nav-link {
+      padding: 5px 0; }
+
+  #welcome .welcome-head h1 {
+    padding: 0 0 20px;
+    font-size: 36px; }
+
+  #leader .leader-slider .leader-speach {
+    padding: 20px; }
+    #leader .leader-slider .leader-speach p {
+      text-align: justify; }
+  #leader .leader-slider .leader-img {
+    height: 100%;
+    width: 100%; }
+  #leader .arrows2 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%); }
+
+  #all-course .content .course-head h1 {
+    font-size: 40px; }
+  #all-course .content .course-head h1::before {
+    width: 90%;
+    left: 5%; }
+
+  #admission form #getintouch-part .tbl1 th {
+    font-size: 14px; }
+  #admission form #getintouch-part .tbl2 td {
+    font-size: 14px; }
+
+  #footer {
+    background-position: left !important; }
+    #footer .contact h3 {
+      font-size: 20px; } }
+@media (max-width: 575.98px) {
+  #wrap .title h1 {
+    font-size: 30px;
+    margin: 10px 0; }
+  #wrap .social-media {
+    padding-bottom: 5px; }
+
+  .navbar .collapse .navbar-nav {
+    width: 150px; }
+
+  #banner .banner-slide .slick-slide .banner-text {
+    padding: 200px 0; }
+    #banner .banner-slide .slick-slide .banner-text h1 {
+      font-size: 30px; }
+    #banner .banner-slide .slick-slide .banner-text p {
+      font-size: 14px; }
+
+  #welcome .welcome-head h1 {
+    font-size: 30px; }
+  #welcome .welcome-details p {
+    font-size: 14px !important; }
+
+  #course .common-head p {
+    padding: 25px 0; }
+  #course .nav-pills .nav-item {
+    height: 100px;
+    width: 95px; }
+    #course .nav-pills .nav-item .nav-link {
+      padding: 14px 0; }
+      #course .nav-pills .nav-item .nav-link span {
+        font-size: 40px; }
+      #course .nav-pills .nav-item .nav-link p {
+        font-size: 11px;
+        padding: 10px 0; }
+  #course .tab-content .tab-pane .gd-left {
+    padding: 45px 20px; }
+    #course .tab-content .tab-pane .gd-left h3 {
+      font-size: 20px; }
+    #course .tab-content .tab-pane .gd-left p {
+      font-size: 14px;
+      text-align: justify; }
+  #course .tab-content .tab-pane .gd-right {
+    clip-path: polygon(0 10%, 40% 10%, 50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%);
+    height: 100%;
+    width: 100%; }
+  #course .tab-content .tab-pane .price h2 {
+    font-size: 25px;
+    padding-bottom: 20px; }
+
+  #leader .leader-slider .leader-speach {
+    padding: 20px; }
+    #leader .leader-slider .leader-speach p {
+      text-align: justify; }
+  #leader .leader-slider .leader-img {
+    height: 100%;
+    width: 100%; }
+  #leader .arrows2 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%); }
+
+  #about .head h1::before {
+    width: 90%;
+    left: 5%; }
+  #about .nav-pills {
+    padding: 0 20px; }
+  #about .tab-content {
+    padding: 0 20px;
+    text-align: justify; }
+
+  #online-course .content .pane .gd-right {
+    clip-path: polygon(0 10%, 40% 10%, 50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%);
+    height: 100%;
+    width: 100%; }
+  #online-course .content .pane .price h2 {
+    font-size: 25px;
+    padding-bottom: 20px; }
+
+  #ofline-course .content .pane .gd-right {
+    clip-path: polygon(0 10%, 40% 10%, 50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%);
+    height: 100%;
+    width: 100%; }
+  #ofline-course .content .pane .price h2 {
+    font-size: 25px;
+    padding-bottom: 20px; }
+
+  #gd-banner .gd-banner h1 {
+    font-size: 45px; }
+
+  #all-course .content .course-head h1 {
+    font-size: 40px; }
+  #all-course .content .course-head h1::before {
+    width: 90%;
+    left: 5%; }
+
+  #admission form .form-head h2 {
+    font-size: 45px; }
+  #admission form #getintouch-part .tbl1 th {
+    font-size: 11px; }
+  #admission form #getintouch-part .tbl2 td {
+    font-size: 11px;
+    padding: 0; }
+
+  #addmission-tab-part .nav-pills {
+    left: 2%;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0); }
+    #addmission-tab-part .nav-pills .nav-item .nav-link {
+      padding: 20px 25px; }
+  #addmission-tab-part .ad-pro table th {
+    font-size: 11px;
+    padding: 10px 0; }
+  #addmission-tab-part .ad-pro table td {
+    font-size: 9px;
+    padding: 10px 0; }
+
+  #contact .add-mess .address .title h1 {
+    font-size: 28px; }
+  #contact .add-mess .address .contact i {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    padding: 0px; }
+  #contact .add-mess .address .contact h5 {
+    padding: 0 0 10px 25px; }
+  #contact .add-mess .address .contact p {
+    font-size: 16px;
+    padding-left: 25px; }
+  #contact .add-mess .address .contact .phone p a {
+    font-size: 16px; }
+  #contact .add-mess .address .contact .email p a {
+    font-size: 16px; }
+  #contact .add-mess .message .head h2 {
+    font-size: 35px; }
+
+  #footer .contact h3 {
+    font-size: 20px;
+    text-decoration: underline; }
+  #footer .contact ul li a {
+    font-size: 14px; }
+  #footer .contact .office {
+    padding-left: 20px; }
+    #footer .contact .office span {
+      line-height: 20px; }
+  #footer .contact .phone {
+    padding: 10px 0 0 20px; }
+  #footer .contact .email {
+    padding: 10px 0 0 20px; }
+  #footer .contact2 {
+    padding-left: 0; } }
+
+/*# sourceMappingURL=responsive.css.map */

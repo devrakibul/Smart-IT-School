@@ -1,0 +1,583 @@
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+    // ============================================================================== \\
+    
+    //---------- Home Start ----------\\
+    
+    // ============================================================================== \\
+    
+    #banner {
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    
+    // ============================================================================== \\
+    
+    //---------- Home End ----------\\
+    
+    // ============================================================================== \\
+
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    #wrap {
+        .title {
+            h1 {
+                font-size: 23px;
+                padding: 5px 0;
+            }
+        }
+    }
+
+    #course {
+        .nav-pills {
+            .nav-item {
+                height: 120px;
+                width: 115px;
+                .nav-link {
+                    padding: 27px 0;
+                }
+            }
+        }
+    }
+
+    #leader {
+        .leader-slider {
+            .leader-img {
+                height: 100%;
+                width: 100%;
+            }
+            .leader-speach {
+                h4 {
+                    font-size: 18px;
+                    span {
+                        font-size: 14px;
+                    }
+                }                
+            }
+        }
+    }
+
+    #footer {
+        .contact {
+            h3 {
+                font-size: 20px;
+            }
+            ul {
+                li {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+            .office {
+                padding-left: 15px;
+                span {
+                    font-size: 14px;
+                }
+            }
+            .phone {
+                p {
+                    a {
+                        font-size: 14px;
+                        padding-left: 15px;
+                    }
+                }
+            }
+            .email {
+                p {
+                    a {
+                        font-size: 14px;
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px) {     
+
+    #wrap {
+        .title {
+            h1 {
+                font-size: 48px;
+                margin: 0;
+            }
+        }
+    }
+
+    #welcome {
+        .welcome-head {
+            h1 {
+                padding: 0 50px 20px;
+            }
+        }
+    }
+
+    #leader {
+        .leader-slider {
+            .leader-speach {
+                p {
+                    font-size: 14px;
+                    text-align: justify;
+                }
+            }
+        }
+        .arrows2 {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+        }
+    }
+
+    #admission {
+        form {
+            #getintouch-part {
+                .tbl2 {
+                    td {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    #wrap {
+        .title {
+            h1 {
+                font-size: 35px;
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .navbar {
+        .collapse {
+            .navbar-nav {
+                width: 150px;
+                .nav-item {
+                    .nav-link {
+                        padding: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #welcome {
+        .welcome-head {
+            h1 {
+                padding: 0 0 20px;
+                font-size: 36px;
+            }
+        }
+    }
+
+    #leader {
+        .leader-slider {
+            .leader-speach {
+                padding: 20px;
+                p {
+                    text-align: justify;
+                }
+            }
+            .leader-img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .arrows2 {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+        }
+    }
+
+    #all-course {
+        .content {
+            .course-head {
+                h1 {
+                    font-size: 40px;
+                }
+                h1::before {
+                    width: 90%;
+                    left: 5%;
+                }
+            }
+        }
+    }
+
+    #admission {
+        form {
+            #getintouch-part {
+                .tbl1 {
+                    th {
+                        font-size: 14px;
+                    }
+                }
+                .tbl2 {
+                    td {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        background-position: left !important;
+        .contact {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+ }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    #wrap {
+        .title {
+            h1 {
+                font-size: 30px;
+                margin: 10px 0;
+            }
+        }
+        .social-media {
+            padding-bottom: 5px;
+        }
+    }
+
+    .navbar {
+        .collapse {
+            .navbar-nav {
+                width: 150px;
+            }
+        }
+    }
+
+    #banner {
+        .banner-slide {
+            .slick-slide {
+                .banner-text {
+                    padding: 200px 0;
+                    h1 {
+                        font-size: 30px;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    #welcome {
+        .welcome-head {
+            h1 {
+                font-size: 30px;
+            }
+        }
+        .welcome-details {
+            p {
+                font-size: 14px !important;
+            }
+        }
+    }
+
+    #course {
+        .common-head {
+            p {
+                padding: 25px 0;
+            }
+        }
+        .nav-pills {
+            .nav-item {
+                height: 100px;
+                width: 95px;
+                .nav-link {
+                    padding: 14px 0;
+                    span {
+                        font-size: 40px;
+                    }
+                    p {
+                        font-size: 11px;
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            .tab-pane {
+                .gd-left {
+                    padding: 45px 20px;
+                    h3 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 14px;
+                        text-align: justify;
+                    }
+                }
+                .gd-right {
+                    clip-path: polygon(0 10%, 40% 10%, 50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%);
+                    height: 100%;
+                    width: 100%;
+                }
+                .price {
+                    h2 {
+                        font-size: 25px;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    #leader {
+        .leader-slider {
+            .leader-speach {
+                padding: 20px;
+                p {
+                    text-align: justify;
+                }
+            }
+            .leader-img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .arrows2 {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+        }
+    }
+
+    #about {
+        .head {
+            h1::before {
+                width: 90%;
+                left: 5%;
+            }
+        }
+        .nav-pills {
+            padding: 0 20px;
+        }
+        .tab-content {
+            padding: 0 20px;
+            text-align: justify;
+        }
+    }
+
+    #online-course {
+        .content {
+            .pane {
+                .gd-right {
+                    clip-path: polygon(0 10%, 40% 10%, 50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%);
+                    height: 100%;
+                    width: 100%;
+                }
+                .price {
+                    h2 {
+                        font-size: 25px;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    #ofline-course {
+        .content {
+            .pane {
+                .gd-right {
+                    clip-path: polygon(0 10%, 40% 10%, 50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%);
+                    height: 100%;
+                    width: 100%;
+                }
+                .price {
+                    h2 {
+                        font-size: 25px;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    #gd-banner {
+        .gd-banner {
+            h1 {
+                font-size: 45px;
+            }
+        }
+    }
+
+    #all-course {
+        .content {
+            .course-head {
+                h1 {
+                    font-size: 40px;
+                }
+                h1::before {
+                    width: 90%;
+                    left: 5%;
+                }
+            }
+        }
+    }
+
+    #admission {
+        form {
+            .form-head {
+                h2 {
+                    font-size: 45px;
+                }
+            }
+            #getintouch-part {
+                .tbl1 {
+                    th {
+                        font-size: 11px;
+                    }
+                }
+                .tbl2 {
+                    td {
+                        font-size: 11px;
+                        padding: 0;
+                    }
+                }
+            }
+        }        
+    }
+
+    #addmission-tab-part {
+        .nav-pills {
+            left: 2%;
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+            .nav-item {
+                .nav-link {
+                    padding: 20px 25px;
+                }
+            }
+        }
+        .ad-pro {
+            table {
+                th {
+                    font-size: 11px;
+                    padding: 10px 0;
+                }
+                td {
+                    font-size: 9px;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+
+    #contact {
+        .add-mess {
+            .address {
+                .title {
+                    h1 {
+                        font-size: 28px;
+                    }
+                }
+                .contact {
+                    i {
+                        width: 50px;
+                        height: 50px;
+                        font-size: 30px;
+                        padding: 0px;
+                    }
+                    h5 {
+                        padding: 0 0 10px 25px;
+                    }
+                    p {
+                        font-size: 16px;
+                        padding-left: 25px;                        
+                    }
+                    .phone {
+                        p {
+                            a {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    .email {
+                        p {
+                            a {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .message {
+                .head {
+                    h2 {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        .contact {
+            h3 {
+                font-size: 20px;
+                text-decoration: underline;
+            }
+            ul {
+                li {
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .office {
+                padding-left: 20px;
+                span {
+                    line-height: 20px;
+                }
+            }
+            .phone {
+                padding: 10px 0 0 20px;
+            }
+            .email {
+                padding: 10px 0 0 20px;
+            }
+        }
+        .contact2 {
+            padding-left: 0;
+        }
+    }    
+ }
